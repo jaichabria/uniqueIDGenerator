@@ -3,10 +3,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"learnGo/golangBeginnerExercises/UniqueIDGenerator/metrics"
 	"net/http"
 
 	"github.com/golang/glog"
+	"github.com/jaichabria/uniqueIDGenerator/metrics"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
